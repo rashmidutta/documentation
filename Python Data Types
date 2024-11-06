@@ -1,1 +1,7 @@
 Python Data types
+Name	Type	Desc
+Integers	Int	whole numbers such as 1, 2, 400
+Floating point	float	numbers with decimal points  12.5, 21.8
+strings	str	"hello"
+Boolean	bool	True or False
+
