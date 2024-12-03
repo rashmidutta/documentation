@@ -1,0 +1,29 @@
+For iterative loop
+# syntax
+For <iterative_i> in <list or string or dictonary or tuple>
+  print(list or string or dictonary or tuple)
+# where <iterative_i> serves as a placeholder for every element in the iterative loop
+# write an program to print the characters of string PYThon
+
+s = "PYTHON"
+for num in s:
+    print(num)
+
+#program to print even numbers in a list
+
+mylist_1 = [2, 3, 4, 5, 6, 7, 8, 10]
+
+for i in mylist_1:
+    if (i% 2 == 0):
+        print(i)
+    else:
+        print("odd number")
+
+# Range (start, stop, skip) function = used to create a list with given start value and stop value (excluding the stop value specified). The start and step parameters are optional
+default start value = 0
+default step value = 1
+# program to create a list with range function
+mylist_2 = []
+for i in range(20):
+    mylist_2.append(i)
+    print(mylist_2)
