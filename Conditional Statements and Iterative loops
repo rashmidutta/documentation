@@ -22,8 +22,14 @@ for i in mylist_1:
 # Range (start, stop, skip) function = used to create a list with given start value and stop value (excluding the stop value specified). The start and step parameters are optional
 default start value = 0
 default step value = 1
+
 # program to create a list with range function
 mylist_2 = []
 for i in range(20):
     mylist_2.append(i)
     print(mylist_2)
+
+# creating lists using flattened For loop
+print("another way to create list using flattened For loop")
+mylist_3 = [ i for i in range(20)]
+print(mylist_3)
