@@ -31,5 +31,5 @@ for i in range(20):
 
 # creating lists using flattened For loop
 print("another way to create list using flattened For loop")
-mylist_3 = [ i for i in range(20)]
+mylist_3 = [ i for i in range(20) if i%2 == 0]
 print(mylist_3)
