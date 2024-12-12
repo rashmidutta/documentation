@@ -1,0 +1,21 @@
+students = {
+    'Alice': {'math': 90, 'english': 85, 'french': 92},
+    'Bob': {'math': 80, 'english': 92, 'french': 78},
+    'Charlie': {'math': 95, 'english': 89, 'french': 87},
+    'David': {'math': 87, 'english': 77, 'french': 90},
+    'Eve': {'math': 92, 'english': 84, 'french': 95}
+}
+
+# Prompt the user to enter a name
+name = input("Enter the name of the student: ")
+
+# Check if the name exists in the dictionary
+if name in students:
+    # Get the scores of the student
+    scores = students[name]
+    # Display the scores
+    print(f"Scores for {name}:")
+    for subject, score in scores.items():
+        print(f"{subject}: {score}")
+else:
+    print("Student not found.")
